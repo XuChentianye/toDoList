@@ -1,0 +1,73 @@
+#initial_title {
+	color: black;
+	background-color: orange;
+	text-align: center;
+	vertical-align: middle;
+}
+
+input[type="text"] {
+	box-sizing: border-box;
+	text-align: left;
+	font-size: 1.4em;
+	height: 2.7em;
+	border-radius: 4px;
+	border: 1px solid #c8cccf;
+	color: #6a6f77;
+	-web-kit-appearance: none;
+	-moz-appearance: none;
+	display: block;
+	outline: 0;
+	padding: 0 1em;
+	text-decoration: none;
+	width: 100%;
+}
+
+#inv{
+	display: none;
+}
+
+#btn,#btn1{
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 1.4em;
+	height: 2.7em;
+	border-radius: 4px;
+	border: 1px solid #c8cccf;
+	color: #6a6f77;
+	-web-kit-appearance: none;
+	-moz-appearance: none;
+	display: block;
+	outline: 0;
+	padding: 0 1em;
+	text-decoration: none;
+	width: 100%;
+}
+	
+button{
+	color: #6a6f77;
+	display: block;
+	border-radius: 4px;
+	text-align: center;
+	box-align: right;
+	align-items: right;
+	align-self: right;
+	vertical-align: right;
+	float: right;
+	border: 1px solid #c8cccf;
+	outline: 0;
+	padding: 0 1em;
+	-web-kit-appearance: none;
+	-moz-appearance: none;
+	display: block;
+	height: 2.7em;
+}
+
+h2{
+	text-align: center;
+}
+
+li{
+	font-size: larger;
+	font-family: "微软雅黑";
+	list-style: none;
+}

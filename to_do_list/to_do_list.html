@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>待办事项</title>
+		<script type="text/javascript" src="./js/todolist_js.js"></script>
+		<link rel="stylesheet" href="./css/todolist_css.css" />
+	</head>
+	<body onload="load()">
+		<header>
+			<form id="form">
+				<h1 id="initial_title">待办事项</h1>
+				<input type="text" id="inputBox" name="inputBox" required="required" placeholder="添加待办事项">
+				<input type="text" id="inv">
+			</form>
+			<button onclick="add()" id="btn">添 加</button>
+			<button onclick="localStorage.clear();location.reload();" id="btn1">清 空</button>
+		</header>
+		<ul id="daiban"></ul>
+	</body>
+</html>
